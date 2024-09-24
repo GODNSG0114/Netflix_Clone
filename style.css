@@ -242,3 +242,39 @@ nav button {
     width: 20vw;
     bottom: 17vw;
 }
+.fourth{
+    display:  flex;
+    align-items: center;
+    justify-content: center ;
+    margin: auto;
+    max-width:  60vw;
+    height: 35vw;
+}
+.fourth_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    left: 20px;
+}
+.fourth_text :nth-child(1) {
+    font-weight:bolder;
+    font-size: 40px;
+    
+}
+.fourth_text :nth-child(2) {
+    font-weight :400 ;
+    font-size: 16px;
+    
+}
+.fourth_Screen{
+    position: relative;
+    top: 5px;
+}
+.fourth_Screen img{
+    width: 30vw;
+    position: relative;
+    right: 30%;
+    z-index: 10;
+    top: 20px;
+}
