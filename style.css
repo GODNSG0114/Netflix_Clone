@@ -119,3 +119,46 @@ nav button {
     border: rgba(231, 231, 231, 0.5) solid 1.5px;
     border-radius: 3px;
 }
+.first{
+    display:  flex;
+    align-items: center;
+    justify-content: center ;
+    margin: auto;
+    max-width:  60vw;
+    height: 35vw;
+}
+.first_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    right: 10%;
+}
+.first_text :nth-child(1) {
+    font-weight:bolder;
+    font-size: 40px;
+    
+}
+.first_text :nth-child(2) {
+    font-weight :400 ;
+    font-size: 16px;
+    
+}
+.Screen{
+    position: relative;
+    top: 5px;
+    left: 15vw;
+}
+.Screen img{
+    width: 30vw;
+    position: relative;
+    right: 30%;
+    z-index: 10;
+    top: 60px;
+}
+.Screen video{
+    position: relative;
+    right:85px;
+    width: 22vw;
+    bottom: 14vw;
+}
