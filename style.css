@@ -162,3 +162,83 @@ nav button {
     width: 22vw;
     bottom: 14vw;
 }
+.Second{
+    display:  flex;
+    align-items: center;
+    justify-content: center ;
+    margin: auto;
+    max-width:  60vw;
+    height: 35vw;
+}
+.Second_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    left: 20px;
+}
+.Second_text :nth-child(1) {
+    font-weight:bolder;
+    font-size: 40px;
+    
+}
+.Second_text :nth-child(2) {
+    font-weight :400 ;
+    font-size: 16px;
+    
+}
+.Second_Screen{
+    position: relative;
+    top: 5px;
+}
+.Second_Screen img{
+    width: 30vw;
+    position: relative;
+    right: 30%;
+    z-index: 10;
+    top: 20px;
+}
+.third{
+    display:  flex;
+    align-items: center;
+    justify-content: center ;
+    margin: auto;
+    max-width:  60vw;
+    height: 35vw;
+}
+.third_text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    right: 10%;
+}
+.third_text :nth-child(1) {
+    font-weight:bolder;
+    font-size: 40px;
+    
+}
+.third_text :nth-child(2) {
+    font-weight :400 ;
+    font-size: 16px;
+    
+}
+.third_Screen{
+    position: relative;
+    top: 5px;
+    left: 15vw;
+}
+.third_Screen img{
+    width: 30vw;
+    position: relative;
+    right: 30%;
+    z-index: 10;
+    top: 60px;
+}
+.third_Screen video{
+    position: relative;
+    size: 40px ;
+    right:76px;
+    width: 20vw;
+    bottom: 17vw;
+}
