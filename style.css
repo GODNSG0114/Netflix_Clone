@@ -278,3 +278,40 @@ nav button {
     z-index: 10;
     top: 20px;
 }
+.faq{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h3{
+    color: white;
+   text-align: center;
+   font-weight: 500;
+   font-size: 35px;
+   padding-top: 40px ;
+}
+.box{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    background-color:gray;
+    height: 46px;
+    justify-content: space-between;
+}
+.box span{ 
+   padding:10px;
+   padding-left:25px;
+   font-weight: 100;
+   font-size: 24px;
+   color: white;
+
+}
+.box svg{
+    padding:10px;
+}
+.box:hover{
+    background-color: #414141;
+}
+.last_faq{
+     margin-bottom: 60px;
+}
